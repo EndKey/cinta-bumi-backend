@@ -1,4 +1,5 @@
 GET /backend/cintaBumi/findUserDetailById
+
 Request Param: String userId
 {
   "serialVersionUID": 0,
@@ -14,7 +15,10 @@ Request Param: String userId
   }
 }
 
+
+
 GET /backend/cintaBumi/getProjectsList
+
 {
   "serialVersionUID": 0,
   "success": false,
@@ -32,7 +36,9 @@ GET /backend/cintaBumi/getProjectsList
   ]
 }
 
+
 GET /backend/cintaBumi/findHistoryListByUserId
+
 Request Param: String userId
 {
   "serialVersionUID": 0,
