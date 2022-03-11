@@ -17,8 +17,11 @@ db.getCollection('users').insert({
     })
 
 db.getCollection('projects').insert({
-    "name": "Kota Rembang, Jawa Tengah, Indonesia",
-    "address": "Jalan Rembang - Blora Km 5",
+    "name": "Government Charity",
+    "streetName": "Jalan Rembang - Blora Km 5",
+    "city": "Kota Rembang",
+    "province": "Jawa Tengah",
+    "country": "Indonesia",
     "numberOfTreesNeeded": 200,
     "currentTreesPlanted": 150,
     "deadlineTimestamp": 1647561600000
