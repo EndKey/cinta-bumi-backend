@@ -50,7 +50,7 @@ db.getCollection('histories').insertMany([
     "userId": "95d6118c-b7ea-4c1e-b769-d4fe9c617859",
     "description": "Box Returned",
     "amount": 2,
-    "timestamp": 1647018070000,
+    "timestamp": 1647079200000,
     "price": 5000,
     "trees": 0.002
 }
