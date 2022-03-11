@@ -1,4 +1,5 @@
 GET /backend/cintaBumi/findUserDetailById
+
 Request Param: String userId
 {
   "serialVersionUID": 0,
