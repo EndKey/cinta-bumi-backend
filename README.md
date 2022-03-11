@@ -28,30 +28,30 @@ db.getCollection('histories').insertMany([
 {
     "userId": "95d6118c-b7ea-4c1e-b769-d4fe9c617859",
     "description": "0.25KgCO2",
-    "amount": "Rp3.600",
+    "amount": 0,
     "timestamp": 1647036000000,
     "price": 3600,
     "trees": 0.7
 }, {
     "userId": "95d6118c-b7ea-4c1e-b769-d4fe9c617859",
     "description": "0.25KgCO2",
-    "amount": "Rp3.600",
+    "amount": 0,
     "timestamp": 1647018070000,
     "price": 3600,
     "trees": 0.7
 }, {
     "userId": "95d6118c-b7ea-4c1e-b769-d4fe9c617859",
     "description": "Box Returned",
-    "amount": "1 Box",
+    "amount": 1,
     "timestamp": 1647018070000,
     "price": 2500,
     "trees": 0.001
 }, {
     "userId": "95d6118c-b7ea-4c1e-b769-d4fe9c617859",
     "description": "Box Returned",
-    "amount": "2 Box",
+    "amount": 2,
     "timestamp": 1647018070000,
-    "price": 2500,
+    "price": 5000,
     "trees": 0.002
 }
 ])
