@@ -59,6 +59,7 @@ Request Param: String userId
 }
 
 POST /backend/cintaBumi/claimUnclaimedRewards
+
 Request Param: String userId
 {
   "serialVersionUID": 0,
@@ -68,6 +69,7 @@ Request Param: String userId
 }
 
 GET /backend/cintaBumi/calculateOrderCarbonFootprint
+
 Request Param: double distanceInM
 {
   "serialVersionUID": 0,
@@ -82,6 +84,7 @@ Request Param: double distanceInM
 }
 
 GET /backend/cintaBumi/calculateOrderRecyclePrice
+
 Request Param: int cardboardAmount
 {
   "serialVersionUID": 0,
