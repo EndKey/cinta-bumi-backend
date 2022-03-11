@@ -15,7 +15,10 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document(collection = "projects")
 public class Project extends BaseMongoEntity {
   private String name;
-  private String address;
+  private String streetName;
+  private String city;
+  private String province;
+  private String country;
   private double numberOfTreesNeeded;
   private double currentTreesPlanted;
   private long deadlineTimestamp;
