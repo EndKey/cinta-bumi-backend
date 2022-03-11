@@ -26,7 +26,10 @@ GET /backend/cintaBumi/getProjectsList
   "content": [
     {
       "name": "",
-      "address": "",
+      "streetName": "",
+      "city": "",
+      "province": "",
+      "country": "",
       "numberOfTreesNeeded": 0.0,
       "currentTreesPlanted": 0.0,
       "deadlineTimestamp": 0,
@@ -48,7 +51,7 @@ Request Param: String userId
     {
       "userId": "",
       "description": "",
-      "amount": "",
+      "amount": 0,
       "timestamp": 0,
       "price": 0,
       "trees": 0.0,
